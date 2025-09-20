@@ -1,0 +1,14 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.country-list {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.img {
+  height: 60px;
+}
